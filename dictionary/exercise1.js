@@ -20,9 +20,7 @@ rl.on('line', function (line) {
 });
 
 // 读取完成后，进行一系列操作
-rl.on('close', function (err) {
-    if (err) throw err;
-
+rl.on('close', function () {
     console.log(pbook.find('wu'));
     pbook.showAll();
     //...
