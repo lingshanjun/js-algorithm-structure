@@ -46,7 +46,10 @@ function clear() {
 }
 
 
-var numElements = 100;
-var myNums = new CArray(numElements);
-myNums.setData();
-console.log(myNums.toString());
+module.exports = CArray;
+
+
+// var numElements = 100;
+// var myNums = new CArray(numElements);
+// myNums.setData();
+// console.log(myNums.toString());
